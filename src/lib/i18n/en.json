@@ -676,7 +676,9 @@
     "corePairs": "Core Pairs",
     "corePairAnalysis": "Core Pair Analysis",
     "archetypes": "Archetype Matchups",
-    "antiMeta": "Anti-Meta Rankings",
+    "antiMeta": {
+      "strategy": "Built around {name} ({score} anti-meta score). Counters {c1} and {c2}."
+    },
     "antiMetaPokemon": "Anti-Meta Pokémon Ranking",
     "antiMetaTeams": "Anti-Meta Teams",
     "tournamentTeams": "Tournament Teams",
@@ -825,9 +827,6 @@
       "topMega": "Top Mega Pokémon:",
       "overrated": "Overrated Pokémon (high usage, low WR):",
       "bestArchetypes": "Best archetypes:"
-    },
-    "antiMeta": {
-      "strategy": "Built around {name} ({score} anti-meta score). Counters {c1} and {c2}."
     }
   },
   "learn": {
@@ -909,6 +908,21 @@
       "networkError": "Network error. Please try again.",
       "sending": "Sending…",
       "send": "Send Message"
+    },
+    "mission": {
+      "p1": "Champions Lab was born from a simple idea: <strong>competitive Pokémon tools should be free and accessible to everyone</strong>. We're a small team of passionate Pokémon fans who have been playing VGC for years, and we wanted to create the ultimate companion for Pokémon Champions 2026.",
+      "p2": "Every feature you see - the Pokédex, the Team Builder, the 2,000,000+ battle simulation engine, the Meta analysis, PokéSchool - was built with love during our free time. <strong>We don't charge anything. No ads, no paywalls, no premium tiers.</strong> This project is and will always be 100% free.",
+      "p3": "We believe the competitive Pokémon community deserves high-quality tools without having to pay for them. If you find Champions Lab useful, the best way to support us is to share it with your friends and fellow trainers!"
+    },
+    "credits": {
+      "p1": "<strong>Champions Lab Team</strong> - Design, development, battle engine, data curation, and everything in between. We're a small but dedicated team that pours hours into making this the best competitive Pokémon tool out there.",
+      "p2": "Huge thanks to the <strong>competitive Pokémon community</strong> for the constant inspiration, the tournament organizers who make VGC possible, and every player who has shared a team, written a guide, or helped a newcomer.",
+      "p3": "Special thanks to everyone who has reported bugs, suggested features, or just said something nice. This project exists because of you."
+    },
+    "contribute": {
+      "p1": "Champions Lab is open source and we welcome contributions! Whether you're a developer, a designer, a competitive player with data to share, or just someone who spotted a bug - <strong>we'd love your help</strong>.",
+      "p2": "You can report bugs, suggest features, or contribute code. Use the contact form below to get in touch, or open an issue on our <github>GitHub repository</github>.",
+      "p3": "If you'd like to support us financially, every little bit helps keep the project alive:"
     }
   },
   "events": {
